@@ -151,12 +151,14 @@ const ProductManager = () => {
                   <td>{p.cantidad}</td>
                   <td>${p.precio.toFixed(2)}</td>
                   <td>
+                    <div className="acciones-btns">
                     <button className="btn btn-yellow" onClick={() => handleEditar(p)}>
                       Editar
                     </button>
                     <button className="btn btn-red" onClick={() => handleEliminar(p._id)}>
                       Eliminar
                     </button>
+                    </div>
                   </td>
                 </tr>
               ))}
