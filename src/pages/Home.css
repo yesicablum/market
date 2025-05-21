@@ -1,0 +1,98 @@
+.home-container {
+  padding: 2rem;
+}
+
+.home-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-description {
+  font-size: 1rem;
+  color: #333;
+}
+
+.products-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 220px;
+  text-align: center;
+  background: #fafafa;
+}
+
+.product-name {
+  font-size: 1.2rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.product-price {
+  font-weight: bold;
+  color: #2d7a2d;
+}
+
+.product-button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #2d7a2d;
+}
+
+.product-button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+.auth-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.auth-button {
+  padding: 0.6rem 1.2rem;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+  background-color: #005fa3;
+}
+.logout-button-container {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.logout-button {
+  padding: 0.5rem 1rem;
+  background-color: #e53935;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c62828;
+}
+.product-tags {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,75 @@
+*{
+  background-color: #f9fafc;
+}
+
+.dashboard-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f9fafc;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.product-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.product-form input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-blue {
+  background-color: #0a58ca;
+  color: white;
+}
+
+.btn-grey {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-yellow {
+  background-color: #ffc107;
+  color: black;
+}
+
+.btn-red {
+  background-color: #dc3545;
+  color: white;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.product-table th,
+.product-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.product-table th {
+  background-color: #f1f1f1;
+}
