@@ -36,31 +36,35 @@ Este proyecto es una aplicación web desarrollada con **React** y **Vite**, que 
 
 ## Estructura
 
+### 📁 Estructura del Proyecto
+
+```text
 /market
-├── public/ # Archivos estáticos (favicon, etc.)
-├── src/ # Código fuente principal
-│ ├── assets/ # Recursos como imágenes o íconos
-│ ├── components/ # Componentes reutilizables
-│ │ ├── Header.css
-│ │ └── Header.jsx
-│ ├── pages/ # Vistas o páginas del sistema
-│ │ ├── Home.css / Home.jsx
-│ │ ├── Login.css / Login.jsx
-│ │ ├── Register.css / Register.jsx
-│ │ └── ProductManager.css / ProductManager.jsx
-│ ├── services/ # Servicios de conexión al backend
-│ │ ├── marketService.js
-│ │ └── sessionService.js
-│ ├── App.css / App.jsx # Componente raíz de la app
-│ ├── index.css # Estilos globales
-│ └── main.jsx # Punto de entrada de React
+├── public/                      # Archivos estáticos (favicon, etc.)
+├── src/                         # Código fuente principal
+│   ├── assets/                  # Recursos como imágenes o íconos
+│   ├── components/              # Componentes reutilizables
+│   │   ├── Header.css
+│   │   └── Header.jsx
+│   ├── pages/                   # Vistas o páginas del sistema
+│   │   ├── Home.css / Home.jsx
+│   │   ├── Login.css / Login.jsx
+│   │   ├── Register.css / Register.jsx
+│   │   └── ProductManager.css / ProductManager.jsx
+│   ├── services/                # Servicios de conexión al backend
+│   │   ├── marketService.js
+│   │   └── sessionService.js
+│   ├── App.css / App.jsx        # Componente raíz de la app
+│   ├── index.css                # Estilos globales
+│   └── main.jsx                 # Punto de entrada de React
 ├── .gitignore
 ├── eslint.config.js
-├── index.html # HTML principal
-├── package.json # Dependencias y scripts
+├── index.html                   # HTML principal
+├── package.json                 # Dependencias y scripts
 ├── package-lock.json
-├── vite.config.js # Configuración de Vite
-└── README.md # Documentación del proyecto
+├── vite.config.js               # Configuración de Vite
+└── README.md                    # Documentación del proyecto
+
 
 
 ## Despliegue
