@@ -33,6 +33,37 @@ Este proyecto es una aplicación web desarrollada con **React** y **Vite**, que 
 4. Abre el navegador en http://localhost:5173
 
 
+
+## Estructura
+
+/market
+├── public/                      # Archivos estáticos (favicon, etc.)
+├── src/                         # Código fuente principal
+│   ├── assets/                  # Recursos como imágenes o íconos
+│   ├── components/              # Componentes reutilizables
+│   │   ├── Header.css
+│   │   └── Header.jsx
+│   ├── pages/                   # Vistas o páginas del sistema
+│   │   ├── Home.css / Home.jsx
+│   │   ├── Login.css / Login.jsx
+│   │   ├── Register.css / Register.jsx
+│   │   └── ProductManager.css / ProductManager.jsx
+│   ├── services/                # Servicios de conexión al backend
+│   │   ├── marketService.js
+│   │   └── sessionService.js
+│   ├── App.css / App.jsx        # Componente raíz de la app
+│   ├── index.css                # Estilos globales
+│   └── main.jsx                 # Punto de entrada de React
+├── .gitignore
+├── eslint.config.js
+├── index.html                   # HTML principal
+├── package.json                 # Dependencias y scripts
+├── package-lock.json
+├── vite.config.js               # Configuración de Vite
+└── README.md                    # Documentación del proyecto
+
+
+
 ## Despliegue
 Este frontend fue desplegado en Vercel y puede visitarse en el siguiente enlace:
 
