@@ -65,7 +65,7 @@ Este proyecto es una aplicación web desarrollada con **React** y **Vite**, que 
 ├── vite.config.js               # Configuración de Vite
 └── README.md                    # Documentación del proyecto
 
-
+```
 
 ## Despliegue
 Este frontend fue desplegado en Vercel y puede visitarse en el siguiente enlace:
