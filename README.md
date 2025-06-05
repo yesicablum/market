@@ -37,30 +37,30 @@ Este proyecto es una aplicación web desarrollada con **React** y **Vite**, que 
 ## Estructura
 
 /market
-├── public/                      # Archivos estáticos (favicon, etc.)
-├── src/                         # Código fuente principal
-│   ├── assets/                  # Recursos como imágenes o íconos
-│   ├── components/              # Componentes reutilizables
+├── public/                     
+├── src/                        
+│   ├── assets/                 
+│   ├── components/            
 │   │   ├── Header.css
 │   │   └── Header.jsx
-│   ├── pages/                   # Vistas o páginas del sistema
+│   ├── pages/                  
 │   │   ├── Home.css / Home.jsx
 │   │   ├── Login.css / Login.jsx
 │   │   ├── Register.css / Register.jsx
 │   │   └── ProductManager.css / ProductManager.jsx
-│   ├── services/                # Servicios de conexión al backend
+│   ├── services/                
 │   │   ├── marketService.js
 │   │   └── sessionService.js
-│   ├── App.css / App.jsx        # Componente raíz de la app
-│   ├── index.css                # Estilos globales
-│   └── main.jsx                 # Punto de entrada de React
+│   ├── App.css / App.jsx        
+│   ├── index.css               
+│   └── main.jsx                 
 ├── .gitignore
 ├── eslint.config.js
-├── index.html                   # HTML principal
-├── package.json                 # Dependencias y scripts
+├── index.html                   
+├── package.json                
 ├── package-lock.json
-├── vite.config.js               # Configuración de Vite
-└── README.md                    # Documentación del proyecto
+├── vite.config.js               
+└── README.md                    
 
 
 
